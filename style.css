@@ -1,0 +1,94 @@
+body, p, h2, h1
+{
+	margin:0px;
+	padding:0px;
+}
+.borderMain
+{
+	width: 1000px;
+	border:1px solid black;
+	margin:0px auto;
+	padding:0px;
+}
+
+.picture
+{
+	position: absolute;
+	width:175px;
+	height:175px;
+}
+
+.labelOverPanelTop
+{
+	position: absolute;
+	left:500px;
+	font-size:19px;
+	font-weight:bold;
+	top:20px;
+}
+
+.borderTop
+{
+	border:1px solid black;
+	width: 1000px;
+	height:190px;
+}
+
+.panelTop
+{
+	display:flex;
+	border:1px solid black;
+	width:600px;
+	justify-content:flex-start;
+	margin-top:50px;
+	margin-left:200px;
+	
+}
+	.panelTop a:link, .panelTop a:visited
+	{
+		color:blue;
+		text-decoration:none;
+		line-height:30px;
+		padding: 10px;
+	}
+	.panelTop a:hover, .panelTop a.active
+	{
+		color:red;
+		text-decoration:underline;
+	}
+
+.borderMiddle
+{
+	border: 1px solid black;
+	margin:0px 200px;
+	text-align:justify;
+	
+}
+	.borderMiddle p, .borderMiddle h1
+	{
+		padding:0px 20px;
+		margin:10px 0px;
+	}
+	
+.left
+{
+	float:left;	
+}
+.right
+{
+	float:right;
+	width:200px;
+}
+	
+.borderBottom 
+{
+	border:1px solid black;
+	height:200px;
+	
+}
+	.borderBottom p
+	{
+		font-size:16px;
+		font-weight:bold;
+		text-align:center;
+	}
